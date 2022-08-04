@@ -1,4 +1,4 @@
-Hello, I am Cliff Williams (aka Clifra Jones)  
+## Hello, I am Cliff Williams (aka Clifra Jones)  
 
 I am a 30 year IT engineer, systems architect, administrator, cloud architect, Data Base Administrator and part time developer.
 
@@ -9,7 +9,7 @@ Most of these projects are free to use and modify to your taste. If you wish to 
 
 Note: These are not my day job. I am a busy IT guy in a large corporation with a personal life. If you report an issue with one of my project and I don't respond in a timely manor please bare with me. If you have the skills you more than welcome to suggest the fix!
 
-
+# Projects
 
 
 <!---
