@@ -2,7 +2,7 @@
 
 I am a 30 year IT engineer, systems architect, administrator, cloud architect, Data Base Administrator and part time developer.
 
-In my GitHub reposititories you mostly will find things related to System, Cloud, Networking, Networking as a Service, etc. Administration. 
+In my GitHub reposititories you mostly will find things related to System, Cloud, Networking, Networking as a Service Administration, etc. 
 Much of which is centered on automation. The majority of my repositories are PowerShell modules such as the Meraki API Powershell module that allows you to use PowerShell to administer a Meraki Network as a Service. Another small module is the AWS_Tools_AddOns which adds a few usefull function when working with AWS S3 in PowerShell (look for more to come here)
 
 Most of these projects are free to use and modify to your taste. If you wish to contribute to any of these feel free to do so.
@@ -30,6 +30,12 @@ This application was specifically designed to address the issue of rotating AWS 
 ## [Docusign-API](https://clifra-jones.github.io/Docusign-API)
 This is a PowerShell module to work with teh Docusign API.
 This module was built to address a specific need in our orgnaization. I have implemented the OAuth authentication and the Envelope features of the API as PowerShell functions. further implementation of API function will be  comming later.
+
+## [AWS_Tools_AddOns](https://clifra-jones.github.io/AWS_Tools_AddOns)
+This is a small PowerShell module I created to solve a few specific tasks that I found myself doing quite often that were a bit tedious.  
+One of these is finding a specific key prefix in AWS S3. AWS S3 does not support the concept of 'folders'. While the Aws web console does display items in S3 in a folder 'like' interface it is really not folders, just items that have a common prefix. So I created a function called Get-AWSFolders that will list the common prefixes iunder a given previx.  
+Another task that I found myself doing was restoring S3 objects from the glacier storage glass. AWS Tools for Powershell does not have an easy capability to restore all objects with a common prefix. So I created 2 functions, one to restore all files with a common prefix (i.e. folder) and another to query the status of the restore. See the documentation for details.  
+This module will get new finctions as I find things I need to so.
 
 
 <!---
