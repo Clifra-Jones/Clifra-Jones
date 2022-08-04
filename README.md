@@ -10,6 +10,29 @@ Most of these projects are free to use and modify to your taste. If you wish to 
 Note: These are not my day job. I am a busy IT guy in a large corporation with a personal life. If you report an issue with one of my project and I don't respond in a timely manor please bare with me. If you have the skills you more than welcome to suggest the fix!
 
 # Projects
+## Meraki-API-V1
+This is a PowerShell Module to manage Meraki networks and devices through the Meraki Version 1 API.  
+Meraki is a Networking as a Service provider from Cisco. This module provides PowerShell function for all services provided by the API.
+This module has been extensively used by our Networking/Infrastructure team and out Security team. 
+
+[Meraki-API-V1]https://clifra-jones.github.io/Meraki-API-V1
+
+## Smartsheet (Aplha version)
+This is a PowerShell module to work with the Smartsheet API. 
+This currently implements all functionality related to Sheets. I will be implementing projects amd dashboar dsupport in the near future.
+This is an early alpha version so extensive testing has not been done.
+
+[Smartsheet]https://clifra-jones.github.io/Smartsheet
+
+## MyAWSSecrets
+This is a small VB.Net application that allows someone with an IAM user account in AWS to retrieve secrets from AWS Secrets Manager.
+This application was specifically designed to address the issue of rotating AWS Access Keys. Our organization forces access keys to be rotated every 90 Days. We store the newly generated Access Keys in Secrets Manager as AccessKeyId and SecretAccessKey. This application allowes the user to retrieve their new keys. The Secret Name is stored in the users IAM account under the tag SecretName. This process has allowed us to no longer send .csv files to users in email that are uncontrolled.
+
+
+## Docusign-API
+This is a PowerShell module to work with teh Docusign API.
+This module was built to address a specific need in our orgnaization. I have implemented the OAuth authentication and the Envelope features of the API as PowerShell functions. further implementation of API function will be  comming later.
+
 
 
 <!---
