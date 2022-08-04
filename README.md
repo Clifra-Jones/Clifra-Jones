@@ -33,8 +33,11 @@ This module was built to address a specific need in our orgnaization. I have imp
 
 ## [AWS_Tools_AddOns](https://clifra-jones.github.io/AWS_Tools_AddOns)
 This is a small PowerShell module I created to solve a few specific tasks that I found myself doing quite often that were a bit tedious.  
-One of these is finding a specific key prefix in AWS S3. AWS S3 does not support the concept of 'folders'. While the Aws web console does display items in S3 in a folder 'like' interface it is really not folders, just items that have a common prefix. So I created a function called Get-AWSFolders that will list the common prefixes iunder a given previx.  
+
+One of these is finding a specific key prefix in AWS S3. AWS S3 does not support the concept of 'folders'. While the AWS web console does display items in S3 in a folder 'like' interface it is really not folders, just items that have a common prefix. So I created a function called Get-AWSFolders that will list the common prefixes under a given prefix.  
+
 Another task that I found myself doing was restoring S3 objects from the glacier storage glass. AWS Tools for Powershell does not have an easy capability to restore all objects with a common prefix. So I created 2 functions, one to restore all files with a common prefix (i.e. folder) and another to query the status of the restore. See the documentation for details.  
+
 This module will get new finctions as I find things I need to so.
 
 
