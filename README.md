@@ -16,7 +16,7 @@ Meraki is a Networking as a Service provider from Cisco. This module provides Po
 This module has been extensively used by our Networking/Infrastructure team and out Security team. 
 
 
-## [Smartsheet (Aplha version)](https://clifra-jones.github.io/Smartsheet)
+## [Smartsheet (Alpha version)](https://clifra-jones.github.io/Smartsheet)
 This is a PowerShell module to work with the Smartsheet API. 
 This currently implements all functionality related to Sheets. I will be implementing projects amd dashboar dsupport in the near future.
 This is an early alpha version so extensive testing has not been done.
